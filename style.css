@@ -1,0 +1,57 @@
+
+  
+body {
+    background-color: #181818;
+    cursor: default;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: bold;
+    color: white;
+    text-shadow: 2px 2px 1px black
+  }
+
+.page-header {
+    border: 0px;
+}
+
+.bemutatkozas {
+    cursor: default;
+    background-image: url("assets/b-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    padding-bottom: 20px;
+    border: 0px;
+}
+
+.labas {
+    background: #181818;
+    cursor: pointer;
+}
+
+.eredet {
+    border: 5px solid rgba(255, 255, 255, 0.48);
+}
+
+.thumbs {
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.thumbs:hover {
+    transform: scale(1.1);
+}
+
+.reszek {
+    cursor: default;
+    background-image: url("assets/reszekbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top center;
+    padding-bottom: 20px;
+}
+
+.separate{
+    border: 3px solid rgba(19, 63, 184, 0.641);
+}
